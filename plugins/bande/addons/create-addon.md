@@ -86,3 +86,7 @@ public class ExampleAddon extends BandeAddon implements Listener {
 
 ```
 {% endcode %}
+
+### Step 5 - Register Addon
+
+Det eneste du skal gøre for at dit addon bliver registeret, er at smide det ind i **/plugins/Bande/addons** mappen.

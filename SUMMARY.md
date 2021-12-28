@@ -14,7 +14,7 @@
     * [Settings](plugins/bande/konfiguration/settings.md)
     * [Shop](plugins/bande/konfiguration/shop.md)
     * [Leaderboard](plugins/bande/konfiguration/leaderboard.md)
-  * [Addons](plugins/bande/addons/README.md)
+  * [Addons](plugins/bande/addons.md)
     * [Create Addon](plugins/bande/addons/create-addon.md)
   * [Java Docs](plugins/bande/java-docs/README.md)
     * [Events](plugins/bande/java-docs/events/README.md)
