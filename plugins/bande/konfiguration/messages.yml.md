@@ -158,6 +158,22 @@ accept_ally:
   has_accepted_ally: "Du har accepteret en alliance med banden {0}"
   has_become_ally_with: "Din bande er nu allierede med {0}"
   cant_add_your_own_bande: "Du kan ikke spørger din egen bande om allierede."
+
+add_rival:
+  input_prompt:
+    - "&7Indtast bandens navn."
+    - "&7Du kan skrive &b'!cancel'&7 for at annullere."
+  response:
+    cancel: "Du kan nu bruge chatten igen"
+    already_rival: "Din bande er allerede rivaler med {0}"
+    you_have_rival_added: "Du har tilføjet banden {0} som rivaler"
+    player_have_rival_added: "{0} har tilføjet banden {1} som rival."
+    cant_rival_your_own_bande: "Du kan ikke gøre din egen bande til rival."
+    reached_max_rivals: "Din bande har ikke plads til flere rivaler."
+remove_rival:
+  player_has_removed_rival: "{0} har fjernet banden {1} som rival."
+  you_have_remove_rival: "Du har fjernet banden {0} som rival."
+
 bande_shop:
   not_enough_money: "Din bande har ikke råd til dette."
   maximized_item: "I har opnået max i dette level."
@@ -184,6 +200,20 @@ gui: # Gui
       no_rivals_against:
       - "&8 ● &7I har ingen rivaler."
       - "&8   &7mod jer."
+      rival: "&8 ● &c{0}"
+      and_x_more: "&8 ● &7Og &c{0} &7flere."
+    members:
+      member: "&8 ● &8[&7{0}&8] &7{1}"
+  information_other:
+    allies:
+      ally: "&8 ● &a{0}"
+      and_x_more: "&8 ● &7Og &a{0} &7flere."
+      no_allies: "&8 ● &7Banden har ingen allierede."
+    rivals:
+      no_rivals: "&8 ● &7Banden har ingen rivaler."
+      no_rivals_against:
+        - "&8 ● &7Banden har ingen."
+        - "&8   &7rivaler mod sig."
       rival: "&8 ● &c{0}"
       and_x_more: "&8 ● &7Og &c{0} &7flere."
     members:

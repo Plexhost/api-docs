@@ -4,18 +4,11 @@
 ```yaml
 # Prisen for at oprette en bande, sæt til 0 for gratis.
 bande_price: 2500
-
-# Prisen for at rename en bande.
 rename_price: 10000
-
-# Debug
 debug: false
-
-# Minimum & Maximum bande navn.
 bande_minimum_length: 3
 bande_maximum_length: 12
 
-# Hvor hvor mange medlemmer, allies & rivals alle bander starter med.
 default_max_members: 3
 default_max_allies: 1
 default_max_rivals: 1
@@ -30,7 +23,6 @@ save_minutes: 10
 # Hvor mange minutter der går mellem hver gang leaderboardsne opdatere.
 leaderboard_minutes: 15
 
-# Hvad der står via placeholderen %bande_name% hvis man ikke har en bande.
 no_bande: "Ingen"
 
 # Bander kan ikke hedde disse navne.
