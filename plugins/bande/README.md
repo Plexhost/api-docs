@@ -19,10 +19,16 @@ Pluginet er lavet med "addons" i hovedet, og indeholder en utrolig nem måde for
 
 ## Permissions
 
-| **Command**   | **Alias** | **Permission** | **Beskrivelse**                             |
-| ------------- | --------- | -------------- | ------------------------------------------- |
-| /bande        | /b        | bande.use      | Tilgå bande menuen.                         |
-| /bande reload | /b reload | bande.admin    | Reloader alle filerne (ikke selve banderne) |
+| **Command**   | **Alias** | **Permission** | **Beskrivelse**                              |
+| ------------- | --------- | -------------- | -------------------------------------------- |
+| /bande        | /b        | bande.use      | Tilgå bande menuen.                          |
+| /bande reload | /b reload | bande.reload   | Reloader alle filerne (ikke selve banderne). |
+| /bande info   | /b info   | bande.info     | Viser information om pluginet.               |
+| /bande addons | /b addons | bande.addons   | Viser installerede addons.                   |
+
+{% hint style="info" %}
+Permissions **bande.admin** og **bande.\*** giver adgang til alt i pluginet.
+{% endhint %}
 
 ## Dependencies
 
