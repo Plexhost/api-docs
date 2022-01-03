@@ -11,7 +11,7 @@ For at importere **Bande**, skal du blot tilføje denne kode til din **pom.xml.*
 Erstat **{PATH}** med den absolutte sti til **Bande.jar** filen. Eksempel:
 
 ```
-E:/IdeaProjects/Plexhost/Bande/target/Bande-v0.1.jar
+E:/IdeaProjects/Plexhost/Bande/target/Bande.jar
 ```
 
 {% code title="pom.xml" %}
