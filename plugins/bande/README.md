@@ -39,3 +39,4 @@ Permissions **bande.admin** og **bande.\*** giver adgang til alt i pluginet.
 
 * [ ] API Maven Repository
 * [ ] Overskuelig og simpel placeholder system.
+* [ ] MongoDB & MariaDB Support.

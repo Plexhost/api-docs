@@ -16,6 +16,7 @@
     * [Leaderboard](plugins/bande/konfiguration/leaderboard.md)
   * [Addons](plugins/bande/addons.md)
     * [Create Addon](plugins/bande/addons/create-addon.md)
+    * [Add your own level](plugins/bande/addons/add-your-own-level.md)
   * [Java Docs](plugins/bande/java-docs/README.md)
     * [Events](plugins/bande/java-docs/events/README.md)
       * [AllyAcceptedEvent](plugins/bande/java-docs/events/allyacceptedevent.md)

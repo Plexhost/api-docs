@@ -53,7 +53,7 @@ I vores tilfælde er det en class med navnet **ExampleAddon** i packagen **org.e
 
 Classen skal **extend** classen **BandeAddon**
 
-{% code title="ExampleAddon.class" %}
+{% code title="ExampleAddon.java" %}
 ```java
 package org.example.addon;
 
