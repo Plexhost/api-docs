@@ -5,7 +5,7 @@ description: Lær hvordan du kan integere dine egne levels i pluginet.
 # Add your own level
 
 {% hint style="info" %}
-Det er nødvendigt at lave dit eget [**addon**](create-addon.md), før du kan tilføje levels.
+Det er nødvendigt at lave dit eget [**addon**](../create-addon.md), før du kan tilføje levels.
 {% endhint %}
 
 Alle Levels kræver sin egen class som extender **BandeLevel.**
