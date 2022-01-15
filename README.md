@@ -1,17 +1,12 @@
 ---
 description: >-
-  Her på siden kan du finde alt dokumentation på vores plugins og vores
-  developer api.
+  On this page you can find all documentation on our plugins and our developer
+  api.
 ---
 
-# Introduktion
+# Introduction
 
-{% content-ref url="plugins/bande/" %}
-[bande](plugins/bande/)
+{% content-ref url="plugins/bande-danish/" %}
+[bande-danish](plugins/bande-danish/)
 {% endcontent-ref %}
 
-
-
-{% hint style="info" %}
-**Godt at vide:** Hele denne dokumentation er opsat og lavet til folk der i forvejen har viden indenfor software udvikling, og er derfor ikke særlig letlæselig for nye udviklere.
-{% endhint %}
