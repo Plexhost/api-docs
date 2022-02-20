@@ -66,3 +66,4 @@
 ## Additional Information
 
 * [Discord](https://discord.plexhost.dk)
+* [Hosting](https://plexhost.dk)
