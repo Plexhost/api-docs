@@ -8,29 +8,24 @@ Start et almindeligt Java Projekt, som du ville gøre når du ville lave et plug
 
 For at importere **Bande**, skal du blot tilføje denne kode til din **pom.xml.**
 
-Erstat **{PATH}** med den absolutte sti til **Bande.jar** filen. Eksempel:
-
-```
-E:/IdeaProjects/Plexhost/Bande/target/Bande.jar
-```
-
 {% code title="pom.xml" %}
 ```xml
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
-            <groupId>dk.plexhost.bande</groupId>
-            <artifactId>Bande</artifactId>
-            <version>1.0</version>
-            <systemPath>{PATH}</systemPath>
-            <scope>system</scope>
+            <groupId>com.github.plexhost</groupId>
+            <artifactId>bande-plugin</artifactId>
+            <version>{VERSION}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 ```
 {% endcode %}
-
-{% hint style="warning" %}
-Der vil snart blive oprettet et **Maven Repository**, så man ikke skal import en lokal fil.
-{% endhint %}
 
 ### Step 3 - Create Addon.yml file
 
