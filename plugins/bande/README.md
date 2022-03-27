@@ -33,7 +33,7 @@ Permissions **bande.admin** og **bande.\*** giver adgang til alt i pluginet.
 ## Dependencies
 
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
-* [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
+* [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) (valgfrit)
 * [PlexCore](https://www.spigotmc.org/resources/plexcore.100981/)
 
 ## Links
@@ -44,5 +44,4 @@ Permissions **bande.admin** og **bande.\*** giver adgang til alt i pluginet.
 
 ## Todo
 
-* [ ] Overskuelig og simpel placeholder system.
 * [ ] MongoDB & MariaDB Support.

@@ -20,12 +20,10 @@
     * [Add your own level](plugins/bande/addons/add-your-own-level/README.md)
       * [Builtin Levels](plugins/bande/addons/add-your-own-level/builtin-levels.md)
   * [Java Docs](plugins/bande/java-docs.md)
-  * [Placeholders](plugins/bande/placeholders.md)
-
-## Developer API
-
-* [Python](developer-api/python.md)
-* [JavaScript](developer-api/javascript.md)
+  * [Placeholders](plugins/bande/placeholders/README.md)
+    * [PlaceholderAPI](plugins/bande/placeholders/placeholderapi.md)
+    * [Indbygget Placeholders](plugins/bande/placeholders/indbygget-placeholders.md)
+    * [GUI Placeholders](plugins/bande/placeholders/gui-placeholders.md)
 
 ## Additional Information
 

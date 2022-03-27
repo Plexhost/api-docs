@@ -1,7 +1,5 @@
 ---
-description: >-
-  På denne side kan du finde al dokumentation om vores plugins og vores
-  udvikler-api.
+description: På denne side kan du finde al dokumentation om vores plugins.
 ---
 
 # Introduktion
