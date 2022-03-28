@@ -29,6 +29,7 @@
   * [Konfiguration](plugins/prisoncells/konfiguration/README.md)
     * [Config](plugins/prisoncells/konfiguration/config.md)
     * [Messages](plugins/prisoncells/konfiguration/messages.md)
+  * [Java Docs](plugins/prisoncells/java-docs.md)
 
 ## Additional Information
 
