@@ -39,7 +39,6 @@ Permissions **bande.admin** og **bande.\*** giver adgang til alt i pluginet.
 ## Links
 
 * Java Docs: [https://docs.plexhost.dk/bande/](https://docs.plexhost.dk/bande/)
-* Spigot: [https://www.spigotmc.org/resources/bande.100984/](https://www.spigotmc.org/resources/bande.100984/)
 * McSkripts: [https://mcskripts.net/view/id/5133](https://mcskripts.net/view/id/5133)
 
 ## Todo

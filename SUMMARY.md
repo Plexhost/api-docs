@@ -24,6 +24,7 @@
     * [PlaceholderAPI](plugins/bande/placeholders/placeholderapi.md)
     * [Indbygget Placeholders](plugins/bande/placeholders/indbygget-placeholders.md)
     * [GUI Placeholders](plugins/bande/placeholders/gui-placeholders.md)
+* [PrisonCells](plugins/prisoncells.md)
 
 ## Additional Information
 
