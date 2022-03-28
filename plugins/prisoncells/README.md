@@ -1,6 +1,6 @@
 # PrisonCells
 
-![](../.gitbook/assets/prisoncells.png)
+![](../../.gitbook/assets/prisoncells.png)
 
 ## Beskrivelse <a href="#description" id="description"></a>
 
