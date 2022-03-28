@@ -1,6 +1,6 @@
 # PrisonCells
 
-![](../../.gitbook/assets/prisoncells.png)
+![](../.gitbook/assets/prisoncells.png)
 
 ## Beskrivelse <a href="#description" id="description"></a>
 
@@ -38,3 +38,9 @@ Permissions **cells.\*** giver adgang til alt i pluginet.
 * [PlexCore](https://www.spigotmc.org/resources/plexcore.100981/)
 * [WorldGuard 6.2](https://dev.bukkit.org/projects/worldguard/files/956770)
 * [WorldEdit 6.1.9](https://dev.bukkit.org/projects/worldedit/files/2597538)
+
+## Links
+
+* Java Docs: [https://docs.plexhost.dk/prisoncells/](https://docs.plexhost.dk/bande/)
+* McSkripts: [https://mcskripts.net/view/id/5391](https://mcskripts.net/view/id/5391)
+
