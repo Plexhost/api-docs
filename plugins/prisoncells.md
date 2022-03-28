@@ -41,6 +41,6 @@ Permissions **cells.\*** giver adgang til alt i pluginet.
 
 ## Links
 
-* Java Docs: [https://docs.plexhost.dk/prisoncells/](https://docs.plexhost.dk/bande/)
+* Java Docs: [https://docs.plexhost.dk/prisoncells/](https://docs.plexhost.dk/prisoncells)
 * McSkripts: [https://mcskripts.net/view/id/5391](https://mcskripts.net/view/id/5391)
 
