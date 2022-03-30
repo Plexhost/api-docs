@@ -2,6 +2,8 @@
 
 {% code title="config.yml" %}
 ```yaml
+license: Your License Key
+
 # Prisen for at oprette en bande, sæt til 0 for gratis.
 bande_price: 2500
 rename_price: 10000
@@ -13,6 +15,11 @@ default_max_members: 3
 default_max_allies: 1
 default_max_rivals: 1
 
+placeholders:
+  no_bande: "Ingen"
+  true: "&aJa"
+  false: "&cNej"
+
 # Tid der skal gå mellem at folk "søger" efter bander med /bande <navn> kommandoen - behold over 3 for at undgå lag.
 command_cooldown: 3
 
@@ -22,8 +29,6 @@ save_minutes: 10
 
 # Hvor mange minutter der går mellem hver gang leaderboardsne opdatere.
 leaderboard_minutes: 15
-
-no_bande: "Ingen"
 
 # Bander kan ikke hedde disse navne.
 # Skal skrives med lowerCase (små bogstaver)

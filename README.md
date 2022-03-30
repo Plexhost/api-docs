@@ -8,3 +8,6 @@ description: På denne side kan du finde al dokumentation om vores plugins.
 [bande](plugins/bande/)
 {% endcontent-ref %}
 
+{% content-ref url="plugins/prisoncells.md" %}
+[prisoncells.md](plugins/prisoncells.md)
+{% endcontent-ref %}

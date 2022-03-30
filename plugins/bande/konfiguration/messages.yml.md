@@ -6,20 +6,20 @@ Alle beskeder bliver behandlet som en **List\<String>**, så du kan derfor lave 
 
 {% code title="messages.yml" %}
 ```yaml
-prefix: "[bande]" # Skal være 1 linje.
-no_bande: "Du har ingen bande."
-player_only: "Denne kommando kan kun bruges af spillere."
-console_only: "Denne kommando kan kun bruges af consolen."
-no_permission: "Du har ikke adgang til denne kommando."
-bande_not_found: "Der blev ikke fundet en bande med navnet {0}"
-command_on_cooldown: "Du skal vente {0} før du kan bruge denne kommando igen."
-error_occurred: "Der skete en fejl"
-not_member_of_bande: "Du er ikke medlem af banden {0}"
-no_access: "Du har ikke adgang til at gøre dette."
+prefix: "&8&l┃ &b&lBande &8&l┃" # Skal være 1 linje.
+no_bande: "&8&l┃ &c&lBande &8&l┃ &7Du er ikke medlem af nogen bande.."
+player_only: "&8&l┃ &c&lBande &8&l┃ &7Denne kommando kan kun bruges af spillere."
+console_only: "&8&l┃ &c&lBande &8&l┃ &7Denne kommando kan kun bruges af consolen."
+no_permission: "&8&l┃ &c&lBande &8&l┃ &7Du har ikke adgang til denne kommando."
+bande_not_found: "&8&l┃ &c&lBande &8&l┃ &7Der blev ikke fundet en bande med navnet &c{0}"
+command_on_cooldown: "&8&l┃ &c&lBande &8&l┃ &7Du skal vente &c{0} &7før du kan bruge denne kommando igen."
+error_occurred: "&8&l┃ &c&lBande &8&l┃ &cDer skete en fejl, kontakt en administrator."
+not_member_of_bande: "&8&l┃ &c&lBande &8&l┃ &7Du er ikke medlem af banden &c{0}"
+no_access: "&8&l┃ &c&lBande &8&l┃ &7Du har ikke adgang til at gøre dette."
 reload:
-  starting: "%prefix% Starter reload af bande."
-  success: "Bande er successfuldt blevet reloadet."
-  error: "Der skete en fejl under reload af bande."
+  starting: "&8&l┃ &b&lBande &8&l┃ &7Starter reload af bande."
+  success: "&8&l┃ &a&lBande &8&l┃ &aBande er successfuldt blevet reloadet."
+  error: "&8&l┃ &c&lBande &8&l┃ &cDer skete en fejl under reload af bande."
 groups: # Skal være 1 linje.
   leader:
     title: Leder
@@ -66,129 +66,128 @@ bande_chat:
     - "[BANDECHAT]"
     - "[{0}] {1}: {2}"
 create_bande:
-  not_enough_money: "En bande koster ${0} og du mangler ${1}"
-  already_have_bande: "Du har allerede en bande: {0}"
+  not_enough_money: "&8&l┃ &c&lBande &8&l┃ &7En bande koster &c${0} &7og du mangler &c${1}"
+  already_have_bande: "&8&l┃ &c&lBande &8&l┃ &7Du er allerede medlem af banden &c{0}"
   input_prompt:
-    - "&7Skriv din kommende bandes navn i chatten."
-    - "&7Du kan skrive &b'!cancel'&7 for at annullere."
+    - "&8&l┃ &b&lBande &8&l┃ &7Skriv din kommende bandes navn i chatten."
+    - "&8&l┃ &b&lBande &8&l┃ &7Du kan skrive &b'!cancel'&7 for at annullere."
   response:
-    cancel: "Du kan nu bruge chatten igen!"
-    bande_exists: "Banden {0} findes allerede"
-    name_too_short: "Navnet skal være mindst være {0} tegn"
-    name_too_long: "Navnet må maksimalt været {0} tegn"
-    only_alphabetical: "Navnet kan kun indeholde bogstaverne fra A til Z"
-    banned_name: "Navnet kan ikke være: {0}"
+    cancel: "&8&l┃ &b&lBande &8&l┃ &7Du kan nu bruge chatten igen!"
+    bande_exists: "&8&l┃ &c&lBande &8&l┃ &7Der findes allerede en bande med dette navn."
+    name_too_short: "&8&l┃ &c&lBande &8&l┃ &7Bandens navn skal mindst indeholde &c{0} tegn."
+    name_too_long: "&8&l┃ &c&lBande &8&l┃ &7Bandens navn kan højst indeholde &c{0} tegn."
+    only_alphabetical: "&8&l┃ &c&lBande &8&l┃ &7Navnet kan kun indeholde bogstaverne fra &cA &7til &cZ."
+    banned_name: "&8&l┃ &c&lBande &8&l┃ &7Du kan ikke oprette en bande med dette navn."
     bande_created:
-      - "Du har oprettet banden:"
-      - "&a{0}"
+      - "&8&l┃ &b&lBande &8&l┃ &7Du har oprettet banden &b{0}"
 delete_bande:
-  player_deleted_bande: "{0} har slettet banden {1}"
-  you_deleted_bande: "Du har slettet din bande {0}"
+  player_deleted_bande: "&8&l┃ &c&lBande &8&l┃ &c{0} &7har slettet banden &c{1}"
+  you_deleted_bande: "&8&l┃ &b&lBande &8&l┃ &7Du har slettet din bande &b{0}"
 leave_bande:
-  player_left_bande: "{0} har forladt banden"
-  you_left_bande: "Du har forladt banden {0}"
+  player_left_bande: "&8&l┃ &c&lBande &8&l┃ &c{0} &7har forladt din bande."
+  you_left_bande: "&8&l┃ &b&lBande &8&l┃ &7Du har forladt banden &b{0}"
 player_invitations:
-  invitation_not_available: "Denne invitation findes ikke mere."
-  has_reached_max_members: "Banden {0} har ikke plads til flere medlemmer."
-  you_joined_bande: "Du har joinet banden: {0}"
-  player_joined_bande: "{0} har joinet banden."
+  invitation_not_available: "&8&l┃ &c&lBande &8&l┃ &7Denne invitation findes ikke mere."
+  has_reached_max_members: "&8&l┃ &c&lBande &8&l┃ &7Banden &c{0} &7har ikke plads til flere medlemmer."
+  you_joined_bande: "&8&l┃ &b&lBande &8&l┃ &7Du har joinet banden &b{0}"
+  player_joined_bande: "&8&l┃ &b&lBande &8&l┃ &b{0} &7har joinet banden."
 bande_invitations:
-  player_is_not_invited: "Spilleren {0} er ikke inviteret."
-  remover_invitation_removed: "{0}'s invitation er blevet fjernet."
-  invited_invitation_removed: "Din invitation fra banden {0} er blevet fjernet af {1}"
+  player_is_not_invited: "&8&l┃ &c&lBande &8&l┃ &7Spilleren &c{0} &7er ikke inviteret til banden."
+  remover_invitation_removed: "&8&l┃ &c&lBande &8&l┃ &c{0}'s &7invitation er blevet fjernet."
+  invited_invitation_removed: "&8&l┃ &b&lBande &8&l┃ &7Din invitation fra banden &c{0} &7er blevet fjernet af &c{1}"
 invite_member:
   input_prompt:
-    - "&7Skriv spilleren i chatten."
-    - "&7Du kan skrive &b'!cancel'&7 for at annullere."
+    - "&8&l┃ &b&lBande &8&l┃ &7Skriv navnet på spilleren du vil invitere."
+    - "&8&l┃ &b&lBande &8&l┃ &7Du kan skrive &b'!cancel'&7 for at annullere."
   response:
-    cancel: "Du kan nu bruge chatten igen"
-  player_is_not_found: "Spilleren {0} er ikke online"
-  cant_invite_yourself: "Du kan ikke invitere dig selv"
-  already_member_of_bande: "{0} er allerede medlem af din bande."
-  already_invited: "{0} er allerede blevet inviteret."
-  inviter_success: "Du har inviteret {0} til banden."
-  invited_success: "Du er blevet inviteret til {1} af {0}"
+    cancel: "&8&l┃ &b&lBande &8&l┃ &7Du kan nu bruge chatten igen!"
+  player_is_not_found: "&8&l┃ &c&lBande &8&l┃ &7Spilleren &c{0} &7er ikke online."
+  cant_invite_yourself: "&8&l┃ &c&lBande &8&l┃ &7Du kan ikke invitere dig selv til banden."
+  already_member_of_bande: "&8&l┃ &c&lBande &8&l┃ &c{0} &7er allerede medlem af din bande."
+  already_invited: "&8&l┃ &c&lBande &8&l┃ &c{0} &7er allerede blevet inviteret."
+  inviter_success: "&8&l┃ &b&lBande &8&l┃ &7Du har inviteret &b{0} &7til banden."
+  invited_success: "&8&l┃ &b&lBande &8&l┃ &7Du er blevet inviteret til &b{1} &7af &b{0}"
 deposit_money:
   input_prompt:
-    - "&7Indtast beløber du ønsker at indsætte."
-    - "&7Du kan skrive &b'!cancel'&7 for at annullere."
+    - "&8&l┃ &b&lBande &8&l┃ &7Indtast beløber du ønsker at indsætte."
+    - "&8&l┃ &b&lBande &8&l┃ &7Du kan skrive &b'!cancel'&7 for at annullere."
   response:
-    cancel: "Du kan nu bruge chatten igen!"
-    only_numbers: "Du kan kun indsætte hele beløber"
-    not_enough_money: "Du mangler ${0}"
-    transaction_successful: "Du har indsat ${0} på din bandes konto, i har nu ${1}"
-    player_transaction: "{0} har indsat ${1} på din bandes konto, i har nu ${1}"
+    cancel: "&8&l┃ &b&lBande &8&l┃ &7Du kan nu bruge chatten igen!"
+    only_numbers: "&8&l┃ &c&lBande &8&l┃ &cDu kan kun indsætte hele beløber."
+    not_enough_money: "&8&l┃ &c&lBande &8&l┃ &7Du mangler &c${0} &7for at indsætte dette beløb."
+    transaction_successful: "&8&l┃ &b&lBande &8&l┃ &7Du har indsat &b${0} &7på din bandes konto, i har nu &b${1}"
+    player_transaction: "&8&l┃ &b&lBande &8&l┃ &b{0} &7har indsat &b${1} &7på din bandes konto, i har nu &b${2}"
 rename_bande:
   input_prompt:
-    - "&7Indtast dit ønskede bandenavn"
-    - "&7Du kan skrive &b'!cancel'&7 for at annullere."
+    - "&8&l┃ &b&lBande &8&l┃ &7Indtast dit ønskede bandenavn."
+    - "&8&l┃ &b&lBande &8&l┃ &7Du kan skrive &b'!cancel'&7 for at annullere."
   response:
-    cancel: "Du kan nu bruge chatten igen!"
-    not_enough_money: "Rename koster ${0} og banden mangler ${1}"
+    cancel: "&8&l┃ &b&lBande &8&l┃ &7Du kan nu bruge chatten igen!"
+    not_enough_money: "&8&l┃ &c&lBande &8&l┃ &7Det koster &b${0} &7at rename, og banden mangler &b${1}"
     bande_renamed:
-      - "Din bande er blevet renamet fra {0} til {1}"
+      - "&8&l┃ &b&lBande &8&l┃ &7Din bande er blevet renamet fra &b{0} &7til &b{1}"
 bande_members:
-  cant_edit_yourself: "Du kan ikke ændre på dig selv."
-  cant_edit_player: "Du kan ikke ændre på {0}"
+  cant_edit_yourself: "&8&l┃ &c&lBande &8&l┃ &7Du kan ikke ændre på dig selv."
+  cant_edit_player: "&8&l┃ &c&lBande &8&l┃ &7Du kan ikke ændre på &c{0}."
 edit_member:
-  member_edited: "{0}'s rolle er blevet ændret til {1} af {2}"
-  demoted_yourself: "Du har givet {0} Leder og er derfor blevet demoted til Admin"
+  member_edited: "&8&l┃ &b&lBande &8&l┃ &b{0}'s &7rolle er blevet ændret til &b{1} &7af &b{2}"
+  demoted_yourself: "&8&l┃ &b&lBande &8&l┃ &7Du har givet &b{0} &7Leder og er derfor blevet demoted til Admin."
 kick_member:
-  cant_kick_player: "Du kan ikke kicke {0}"
-  you_kicked_player: "Du har kicket {0} fra banden"
-  player_kicked_member: "{0} har kicket {1} fra banden."
-  you_have_been_kicked: "Du er blevet kicket fra {0} af {1}"
+  cant_kick_player: "&8&l┃ &c&lBande &8&l┃ &7Du har ikke adgang til at ikke kicke &b{0}."
+  you_kicked_player: "&8&l┃ &b&lBande &8&l┃ &7Du har kicket &b{0} &7fra banden."
+  player_kicked_member: "&8&l┃ &b&lBande &8&l┃ &b{0} &7har kicket &b{1} &7fra banden."
+  you_have_been_kicked: "&8&l┃ &c&lBande &8&l┃ &7Du er blevet kicket fra &c{0} &7af &c{1}"
 add_ally:
   input_prompt:
-    - "&7Indtast bandens navn."
-    - "&7Du kan skrive &b'!cancel'&7 for at annullere."
+    - "&8&l┃ &b&lBande &8&l┃ &7Skriv navnet på banden du vil blive allierede med."
+    - "&8&l┃ &b&lBande &8&l┃ &7Du kan skrive &b'!cancel'&7 for at annullere."
   response:
-    cancel: "Du kan nu bruge chatten igen"
-    ally_already_added: "Jeres bande har allerede spurgt {0} som allierede."
-    bande_already_added: "Banden {0} har spurgt din bande som allierede, accepter den inden under invitationer"
-    ally_added: "Du har spurgt banden {0} om allierede"
-    bande_has_send_invitation: "Banden {0} har spurgt om allierede"
+    cancel: "&8&l┃ &b&lBande &8&l┃ &7Du kan nu bruge chatten igen"
+    ally_already_added: "&8&l┃ &b&lBande &8&l┃ &7Du har spurgt &b{0} &7om allierede."
+    bande_already_added: "&8&l┃ &b&lBande &8&l┃ &7Banden &b{0} &7har spurgt din bande som allierede, accepter den inden under invitationer."
+    ally_added: "&8&l┃ &b&lBande &8&l┃ &7Du har spurgt banden &b{0} &7om allierede."
+    bande_has_send_invitation: "&8&l┃ &b&lBande &8&l┃ &7Banden &b{0} &7har spurgt din bande om allierede."
 remove_ally:
-  player_has_removed_ally: "{0} har fjernet banden {1} som allierede"
-  you_have_remove_ally: "Du har fjernet banden {0} som allierede."
-  has_removed_you_as_ally: "Banden {0} har fjernet jer som allierede."
+  player_has_removed_ally: "&8&l┃ &b&lBande &8&l┃ &b{0} &7har fjernet banden &b{1} &7som allierede"
+  you_have_remove_ally: "&8&l┃ &b&lBande &8&l┃ &7Du har fjernet banden &b{0} &7som allierede."
+  has_removed_you_as_ally: "&8&l┃ &c&lBande &8&l┃ &7Banden &c{0} &7har fjernet jer som allierede."
 accept_ally:
-  bande_has_reached_max_allies: "Din bande har ikke plads til flere allierede."
-  ally_has_reached_max_allies: "Banden {0} har ikke plads til flere allierede."
-  has_accepted_ally: "Du har accepteret en alliance med banden {0}"
-  has_become_ally_with: "Din bande er nu allierede med {0}"
-  cant_add_your_own_bande: "Du kan ikke spørger din egen bande om allierede."
+  bande_has_reached_max_allies: "&8&l┃ &c&lBande &8&l┃ &7Din bande har ikke plads til flere allierede."
+  ally_has_reached_max_allies: "&8&l┃ &c&lBande &8&l┃ &7Banden &c{0} &7har ikke plads til flere allierede."
+  has_accepted_ally: "&8&l┃ &b&lBande &8&l┃ &7Du har startet en alliance med banden &b{0}"
+  has_become_ally_with: "&8&l┃ &b&lBande &8&l┃ &7Din bande er nu allierede med &b{0}"
+  cant_add_your_own_bande: "&8&l┃ &c&lBande &8&l┃ &7Du kan ikke spørger din egen bande om allierede."
 
 add_rival:
   input_prompt:
-    - "&7Indtast bandens navn."
-    - "&7Du kan skrive &b'!cancel'&7 for at annullere."
+    - "&8&l┃ &b&lBande &8&l┃ &7Skriv navnet på banden du vil blive rivaler med."
+    - "&8&l┃ &b&lBande &8&l┃ &7Du kan skrive &b'!cancel'&7 for at annullere."
   response:
-    cancel: "Du kan nu bruge chatten igen"
-    already_rival: "Din bande er allerede rivaler med {0}"
-    you_have_rival_added: "Du har tilføjet banden {0} som rivaler"
-    player_have_rival_added: "{0} har tilføjet banden {1} som rival."
-    cant_rival_your_own_bande: "Du kan ikke gøre din egen bande til rival."
-    reached_max_rivals: "Din bande har ikke plads til flere rivaler."
+    cancel: "&8&l┃ &b&lBande &8&l┃ &7Du kan nu bruge chatten igen."
+    already_rival: "&8&l┃ &c&lBande &8&l┃ &7Din bande er allerede rivaler med &c{0}"
+    you_have_rival_added: "&8&l┃ &b&lBande &8&l┃ &7Du har tilføjet banden &b{0} &7som rivaler."
+    player_have_rival_added: "&8&l┃ &b&lBande &8&l┃ &b{0} har tilføjet banden &b{1} &7som rival."
+    cant_rival_your_own_bande: "&8&l┃ &c&lBande &8&l┃ &7Du kan ikke gøre din egen bande til rival."
+    reached_max_rivals: "&8&l┃ &c&lBande &8&l┃ &7Din bande har ikke plads til flere rivaler."
 remove_rival:
-  player_has_removed_rival: "{0} har fjernet banden {1} som rival."
-  you_have_remove_rival: "Du har fjernet banden {0} som rival."
-
+  player_has_removed_rival: "&8&l┃ &b&lBande &8&l┃ &c{0} &7har fjernet banden &c{1} &7som rival."
+  you_have_remove_rival: "&8&l┃ &b&lBande &8&l┃ &7Du har fjernet banden &b{0} &7som rival."
 bande_shop:
-  not_enough_money: "Din bande har ikke råd til dette."
-  maximized_item: "I har opnået max i dette level."
-  bought_item: "Du har købt {0} for ${1} til banden."
-  player_has_bought_item: "{0} har købt {1} for ${1} til banden."
+  not_enough_money: "&8&l┃ &c&lBande &8&l┃ &7Din bande har ikke råd til dette."
+  maximized_item: "&8&l┃ &c&lBande &8&l┃ &cDin bande har opnået max i dette level."
+  bought_item: "&8&l┃ &b&lBande &8&l┃ &7Du har købt &b{0} &7for &b${1} &7til banden."
+  player_has_bought_item: "&8&l┃ &b&lBande &8&l┃ &b{0} &7har købt &b{1} &7for &b${2} &7til banden."
 levelup:
-  missing_requirements: "Din bande har ikke løst alle opgaverne."
-  bande_levelup: "Din bande er steget i level {0}"
+  missing_requirements: "&8&l┃ &c&lBande &8&l┃ &7Din bande har ikke løst alle opgaverne."
+  bande_levelup: "&8&l┃ &a&lBande &8&l┃ &7Din bande er steget i &alevel &2{0}"
+  max_level: "&8&l┃ &c&lBande &8&l┃ &7Din bande et i max level."
 chat_format:
   no_gang: "{0}{1}{2}&8: &f{3}"
-  has_gang:
-    member: "&8[&a{0}&8][&a{1}&8]{2}{3}{4}&8: &f{5}"
-    ally: "&8[&a{0}&8][&a{1}&8]{2}{3}{4}&8: &f{5}"
-    rival: "&8[&c{0}&8][&c{1}&8]{2}{3}{4}&8: &f{5}"
-    default: "&8[&7{0}&8][&7{1}&8]{2}{3}{4}&8: &f{5}"
+  in_gang:
+    member: "&8[&a{0}{1}&8][&a{2}&8]{3}{4}{5}&8: &f{6}"
+    ally: "&8[&a{0}{1}&8][&a{2}&8]{3}{4}{5}&8: &f{6}"
+    rival: "&8[&c{0}{1}&8][&c{2}&8]{3}{4}{5}&8: &f{6}"
+    default: "&8[&7{0}{1}&8][&7{2}&8]{3}{4}{5}&8: &f%2$s"
 gui: # Gui
   information:
     allies:

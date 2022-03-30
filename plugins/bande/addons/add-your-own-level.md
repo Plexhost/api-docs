@@ -4,10 +4,6 @@ description: Lær hvordan du kan integere dine egne levels i pluginet.
 
 # Add your own level
 
-{% hint style="info" %}
-Det er nødvendigt at lave dit eget [**addon**](../create-addon/), før du kan tilføje levels.
-{% endhint %}
-
 Alle Levels kræver sin egen class som extender **BandeLevel.**
 
 {% code title="Level_2.java" %}
@@ -59,7 +55,7 @@ Det gør vi ved at brug af **BandeAPI** classen.
 package org.example.addon;
 
 import dk.plexhost.bande.addon.BandeAddon;
-import dk.plexhost.bande.BandeAPI;
+import dk.plexhost.bande.BandePlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -89,7 +85,7 @@ public class ExampleAddon extends BandeAddon {
     
         // Vi tilføjer vores nye level til levelet 2.
         // Det betyder at en level 1 bande skal opfylde disse krav.
-        BandeAPI.addLevel(2, new Level_2());
+        BandePlugin.getAPI().addLevel(2, new Level_2());
     }
 
 }
