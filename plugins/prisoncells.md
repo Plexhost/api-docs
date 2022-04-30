@@ -35,7 +35,7 @@ Permissions **cells.\*** giver adgang til alt i pluginet.
 ## Dependencies
 
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
-* [PlexCore](https://www.spigotmc.org/resources/plexcore.100981/)
+* [PlexCore](https://plexhost.dk/plugins)
 * [WorldGuard 6.2](https://dev.bukkit.org/projects/worldguard/files/956770)
 * [WorldEdit 6.1.9](https://dev.bukkit.org/projects/worldedit/files/2597538)
 
