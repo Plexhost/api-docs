@@ -26,7 +26,7 @@ refund: false
 # Om der skal være cooldown på når man vil købe ny celle.
 cooldown:
   enabled: false
-  length: 3600 # Længden af cooldown
+  length: 3600 # Længden af cooldown i sekunder
 
 # Hvilket design som celle skilte har, når vdu bruger placeholderen %timeLeft%
 # Tegnet '||' viser hvordan det vil se ud med forskellige længder af tid tilbage.
