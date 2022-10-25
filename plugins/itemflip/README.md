@@ -42,5 +42,5 @@ Permissions **itemflip.\*** giver adgang til alt i pluginet.
 ## Links
 
 * Java Docs: [https://docs.plexhost.dk/itemflip/](https://docs.plexhost.dk/prisoncells)
-* McSkripts: [https://mcskripts.net/view/id/5391](https://mcskripts.net/view/id/5391)
+* McSkripts: [https://mcskripts.net/view/id/5750](https://mcskripts.net/view/id/5750)
 
