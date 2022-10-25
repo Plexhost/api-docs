@@ -30,6 +30,13 @@
     * [Config](plugins/prisoncells/konfiguration/config.md)
     * [Messages](plugins/prisoncells/konfiguration/messages.md)
   * [Java Docs](plugins/prisoncells/java-docs.md)
+* [ItemFlip](plugins/itemflip/README.md)
+  * [Installation](plugins/itemflip/installation.md)
+  * [Konfiguration](plugins/itemflip/konfiguration/README.md)
+    * [Config](plugins/itemflip/konfiguration/config.md)
+    * [Messages](plugins/itemflip/konfiguration/messages.md)
+    * [Item Aliases](plugins/itemflip/konfiguration/item-aliases.md)
+  * [Java Docs](plugins/itemflip/java-docs.md)
 
 ## Additional Information
 
