@@ -2,6 +2,8 @@
 
 ![](../../.gitbook/assets/bande-banner.png)
 
+{% embed url="https://youtu.be/XU3b_C77klU" %}
+
 ## Beskrivelse <a href="#description" id="description"></a>
 
 **Bande** er et enormt konfigurerbart plugin til Prison servere.\

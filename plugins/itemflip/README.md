@@ -2,6 +2,8 @@
 
 <figure><img src="../../.gitbook/assets/Uitemflip img.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://youtu.be/4WFZFuX18Uc" %}
+
 ## Beskrivelse <a href="#description" id="description"></a>
 
 **ItemFlip** er den perfekte løsning til dig, der ønsker et godt og veltestet ItemFlip system, som man ser på de store servere.
