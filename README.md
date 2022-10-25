@@ -11,3 +11,7 @@ description: På denne side kan du finde al dokumentation om vores plugins.
 {% content-ref url="plugins/prisoncells.md" %}
 [prisoncells.md](plugins/prisoncells.md)
 {% endcontent-ref %}
+
+{% content-ref url="plugins/itemflip/" %}
+[itemflip](plugins/itemflip/)
+{% endcontent-ref %}
