@@ -37,6 +37,11 @@
     * [Messages](plugins/itemflip/konfiguration/messages.md)
     * [Item Aliases](plugins/itemflip/konfiguration/item-aliases.md)
   * [Java Docs](plugins/itemflip/java-docs.md)
+* [End Crates](plugins/end-crates/README.md)
+  * [Installation](plugins/end-crates/installation.md)
+  * [Konfiguration](plugins/end-crates/konfiguration/README.md)
+    * [Config](plugins/end-crates/konfiguration/config.md)
+    * [Messages](plugins/end-crates/konfiguration/messages.md)
 
 ## Additional Information
 
