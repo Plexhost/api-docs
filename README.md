@@ -15,3 +15,7 @@ description: På denne side kan du finde al dokumentation om vores plugins.
 {% content-ref url="plugins/itemflip/" %}
 [itemflip](plugins/itemflip/)
 {% endcontent-ref %}
+
+{% content-ref url="plugins/end-crates/" %}
+[end-crates](plugins/end-crates/)
+{% endcontent-ref %}
