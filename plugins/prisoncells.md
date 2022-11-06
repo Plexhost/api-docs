@@ -22,13 +22,13 @@
 
 ## Permissions
 
-| **Command** | **Alias** | **Permission**        | **Beskrivelse**                          |
-| ----------- | --------- | --------------------- | ---------------------------------------- |
-| /cell       | /ce       | cells.use             | Normal celle kommando.                   |
-| /celladmin  | /cea      | cells.admin           | Admin celle kommando.                    |
-| -           | -         | cells.cooldown.bypass | Adgang til at leje celler i celle gruppe |
-| -           | -         | cells.rent.\<gruppe>  | Viser installerede addons.               |
-| -           | -         | cells.amount.\<antal> | Adgang til at leje et antal celler.      |
+| **Command** | **Alias** | **Permission**        | **Beskrivelse**                           |
+| ----------- | --------- | --------------------- | ----------------------------------------- |
+| /cell       | /ce       | cells.use             | Normal celle kommando.                    |
+| /celladmin  | /cea      | cells.admin           | Admin celle kommando.                     |
+| -           | -         | cells.cooldown.bypass | Adgang til at bypass celle slet cooldown. |
+| -           | -         | cells.rent.\<gruppe>  | Adgang til at leje celler i celle gruppe  |
+| -           | -         | cells.amount.\<antal> | Adgang til at leje et antal celler.       |
 
 {% hint style="info" %}
 Permissions **cells.\*** giver adgang til alt i pluginet.
