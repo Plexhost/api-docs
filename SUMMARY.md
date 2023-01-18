@@ -19,6 +19,7 @@
     * [Create Addon](plugins/bande/addons/create-addon/README.md)
       * [BandeAddon classen.](plugins/bande/addons/create-addon/bandeaddon-classen..md)
     * [Add your own level](plugins/bande/addons/add-your-own-level.md)
+  * [Skript-Reflect Snippet](plugins/bande/skript-reflect-snippet.md)
   * [Java Docs](plugins/bande/java-docs.md)
   * [Placeholders](plugins/bande/placeholders/README.md)
     * [PlaceholderAPI](plugins/bande/placeholders/placeholderapi.md)
