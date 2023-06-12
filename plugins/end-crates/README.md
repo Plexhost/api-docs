@@ -16,9 +16,7 @@
 
 ## Commands & Permissions
 
-| **Command** | **Permission**  | **Beskrivelse**              |
-| ----------- | --------------- | ---------------------------- |
-| /endcrates  | endcrates.admin | Admin kommando for pluginet. |
+<table data-header-hidden><thead><tr><th width="169">Beskrivelse</th><th width="176">Command</th><th width="365.3333333333333">Permission</th></tr></thead><tbody><tr><td><strong>Command</strong></td><td><strong>Permission</strong></td><td><strong>Beskrivelse</strong></td></tr><tr><td>/endcrates</td><td>endcrates.admin</td><td>Admin kommando for pluginet.</td></tr></tbody></table>
 
 ## Dependencies
 

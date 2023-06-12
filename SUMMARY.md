@@ -43,6 +43,11 @@
   * [Konfiguration](plugins/end-crates/konfiguration/README.md)
     * [Config](plugins/end-crates/konfiguration/config.md)
     * [Messages](plugins/end-crates/konfiguration/messages.md)
+* [Discord Link](plugins/discord-link/README.md)
+  * [Installation](plugins/discord-link/installation.md)
+  * [Konfiguration](plugins/discord-link/konfiguration/README.md)
+    * [Config](plugins/discord-link/konfiguration/config.md)
+    * [Messages](plugins/discord-link/konfiguration/messages.md)
 
 ## Additional Information
 

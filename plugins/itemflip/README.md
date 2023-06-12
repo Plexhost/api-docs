@@ -18,11 +18,7 @@
 
 ## Commands & Permissions
 
-| **Command**      | **Permission**  | **Beskrivelse**                      |
-| ---------------- | --------------- | ------------------------------------ |
-| /itemflip        | itemflip.open   | Åbner ItemFlip menuen for spilleren. |
-| /itemflip give   | itemflip.give   | Give Flip tokens til spillere.       |
-| /itemflip reload | itemflip.reload | Reloader ItemFlip konfigurationen.   |
+<table data-header-hidden><thead><tr><th width="169">Beskrivelse</th><th width="156">Command</th><th width="365.3333333333333">Permission</th></tr></thead><tbody><tr><td><strong>Command</strong></td><td><strong>Permission</strong></td><td><strong>Beskrivelse</strong></td></tr><tr><td>/itemflip </td><td>itemflip.open</td><td>Åbner ItemFlip menuen for spilleren.</td></tr><tr><td>/itemflip give</td><td>itemflip.give</td><td>Give Flip tokens til spillere.</td></tr><tr><td>/itemflip reload</td><td>itemflip.reload</td><td>Reloader ItemFlip konfigurationen.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 For at kunne åbne menuen uden commands (med API), skal man stadig have permissionen **itemflip.use**

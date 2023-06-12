@@ -22,13 +22,7 @@
 
 ## Permissions
 
-| **Command** | **Alias** | **Permission**        | **Beskrivelse**                           |
-| ----------- | --------- | --------------------- | ----------------------------------------- |
-| /cell       | /ce       | cells.use             | Normal celle kommando.                    |
-| /celladmin  | /cea      | cells.admin           | Admin celle kommando.                     |
-| -           | -         | cells.cooldown.bypass | Adgang til at bypass celle slet cooldown. |
-| -           | -         | cells.rent.\<gruppe>  | Adgang til at leje celler i celle gruppe  |
-| -           | -         | cells.amount.\<antal> | Adgang til at leje et antal celler.       |
+<table data-header-hidden><thead><tr><th width="150">Beskrivelse</th><th width="150"></th><th width="219">Command</th><th width="249.33333333333331">Permission</th></tr></thead><tbody><tr><td><strong>Command</strong></td><td><strong>Alias</strong></td><td><strong>Permission</strong></td><td><strong>Beskrivelse</strong></td></tr><tr><td>/cell</td><td>/ce</td><td>cells.use</td><td>Normal celle kommando.</td></tr><tr><td>/celladmin</td><td>/cea</td><td>cells.admin</td><td>Admin celle kommando.</td></tr><tr><td>-</td><td>-</td><td>cells.cooldown.bypass</td><td>Adgang til at bypass celle slet cooldown.</td></tr><tr><td>-</td><td>-</td><td>cells.rent.&#x3C;gruppe></td><td>Adgang til at leje celler i celle gruppe</td></tr><tr><td>-</td><td>-</td><td>cells.amount.&#x3C;antal></td><td>Adgang til at leje et antal celler.</td></tr></tbody></table>
 
 {% hint style="info" %}
 Permissions **cells.\*** giver adgang til alt i pluginet.

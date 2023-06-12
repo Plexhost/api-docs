@@ -21,12 +21,7 @@ Pluginet er lavet med "addons" i hovedet, og indeholder en utrolig nem måde for
 
 ## Permissions
 
-| **Command**   | **Alias** | **Permission** | **Beskrivelse**                              |
-| ------------- | --------- | -------------- | -------------------------------------------- |
-| /bande        | /b        | bande.use      | Tilgå bande menuen.                          |
-| /bande reload | /b reload | bande.reload   | Reloader alle filerne (ikke selve banderne). |
-| /bande info   | /b info   | bande.info     | Viser information om pluginet.               |
-| /bande addons | /b addons | bande.addons   | Viser installerede addons.                   |
+<table data-header-hidden><thead><tr><th width="200.32856419721702">Beskrivelse</th><th width="150"></th><th width="150">Command</th><th width="249.33333333333331">Permission</th></tr></thead><tbody><tr><td><strong>Command</strong></td><td><strong>Alias</strong></td><td><strong>Permission</strong></td><td><strong>Beskrivelse</strong></td></tr><tr><td>/bande</td><td>/b</td><td>bande.use</td><td>Tilgå bande menuen.</td></tr><tr><td>/bande reload</td><td>/b reload</td><td>bande.reload</td><td>Reloader alle filerne (ikke selve banderne).</td></tr><tr><td>/bande info</td><td>/b info</td><td>bande.info</td><td>Viser information om pluginet.</td></tr><tr><td>/bande addons</td><td>/b addons</td><td>bande.addons</td><td>Viser installerede addons.</td></tr></tbody></table>
 
 {% hint style="info" %}
 Permissions **bande.admin** og **bande.\*** giver adgang til alt i pluginet.

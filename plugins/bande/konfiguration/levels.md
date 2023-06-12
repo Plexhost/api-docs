@@ -25,8 +25,8 @@ Hvert et krav indeholder 3 dele.
    \
    Det første del af **conditionen** er så vores bande skade, \*\
    som har placeholderen: `<shop_bandeskade>`\
-   ``\
-   ``Den anden del er **operatoren**, altså at det skal mindre eller lig med.\
+   \
+   Den anden del er **operatoren**, altså at det skal mindre eller lig med.\
    Følgende operators kan bruges:\
    \- **`=`** og **`==`** (lig med)\
    \- **`<=`** og **`=<`** (mindre eller lig med)\
@@ -34,11 +34,11 @@ Hvert et krav indeholder 3 dele.
    \- **`>`** (større end)\
    \- **`<`** (mindre end)\
    \
-   Vi kan så se at **mindre eller lig med** operatoren er **`<=` ** \
-   ****\
-   ****Den sidste del er så tallet, vi skal bruge tallet **95.**\
-   ****\
-   ****Så skal vi bare sætte den sammen.\
+   Vi kan så se at **mindre eller lig med** operatoren er **`<=`** \
+   \
+   Den sidste del er så tallet, vi skal bruge tallet **95.**\
+   \
+   Så skal vi bare sætte den sammen.\
    Så den ender med at se ud som: `requirement: "<shop_bandeskade><=95"`\
 
 2. **Tekst der vises når man har klaret det.**\

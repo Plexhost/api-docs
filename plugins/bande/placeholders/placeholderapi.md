@@ -6,10 +6,4 @@ description: Disse Placeholders kræver at PlaceholderAPI er installeret.
 
 **Placeholder:** %placeholder%
 
-| Placeholder                                                                               | Beskrivelse                                                                        | Eksempel                     |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------- |
-| `%bande_config_<key>%`                                                                    | Vis config values.                                                                 | `%bande_config_bande_price%` |
-| `%bande_player_invitations%`                                                              | Viser antallet af ens bande invitationer.                                          | -                            |
-| `%bande_name%`                                                                            | Viser din bandes navn, eller `placeholders.no_bande` hvis du ikke er medlem af en. |  -                           |
-| <p><code>%bande_id%</code><br><code>%bande_bank%</code><br><code>%bande_level%</code></p> | <p>Viser din bandes id.<br>Viser din bandes bank.<br>Viser din bandes level.</p>   | -                            |
-|                                                                                           |                                                                                    |                              |
+<table><thead><tr><th width="321.8397620351333">Placeholder</th><th width="288.57639145056">Beskrivelse</th><th>Eksempel</th></tr></thead><tbody><tr><td><code>%bande_config_&#x3C;key>%</code></td><td>Vis config values.</td><td><code>%bande_config_bande_price%</code></td></tr><tr><td><code>%bande_player_invitations%</code></td><td>Viser antallet af ens bande invitationer.</td><td>-</td></tr><tr><td><code>%bande_name%</code></td><td>Viser din bandes navn, eller <code>placeholders.no_bande</code> hvis du ikke er medlem af en.</td><td> -</td></tr><tr><td><code>%bande_id%</code><br><code>%bande_bank%</code><br><code>%bande_level%</code></td><td>Viser din bandes id.<br>Viser din bandes bank.<br>Viser din bandes level.</td><td>-</td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
