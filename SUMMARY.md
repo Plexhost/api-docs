@@ -37,6 +37,7 @@
     * [Config](plugins/itemflip/konfiguration/config.md)
     * [Messages](plugins/itemflip/konfiguration/messages.md)
     * [Item Aliases](plugins/itemflip/konfiguration/item-aliases.md)
+  * [Citizens integration](plugins/itemflip/citizens-integration.md)
   * [Java Docs](plugins/itemflip/java-docs.md)
 * [End Crates](plugins/end-crates/README.md)
   * [Installation](plugins/end-crates/installation.md)
