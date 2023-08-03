@@ -56,6 +56,7 @@ id: BlockPlaceExample
 type: BLOCK_PLACE
 variable: GLASS
 required: 32 # default til 1
+cooldown: 10000 # I antal sekunder
 reward:
   commands:
     - "eco give {player} 560"
