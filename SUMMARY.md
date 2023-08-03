@@ -49,6 +49,14 @@
   * [Konfiguration](plugins/discord-link/konfiguration/README.md)
     * [Config](plugins/discord-link/konfiguration/config.md)
     * [Messages](plugins/discord-link/konfiguration/messages.md)
+* [Quests](plugins/quests/README.md)
+  * [Installation](plugins/quests/installation.md)
+  * [Konfiguration](plugins/quests/konfiguration/README.md)
+    * [Config.yml](plugins/quests/konfiguration/config.yml.md)
+    * [Messages.yml](plugins/quests/konfiguration/messages.yml.md)
+  * [Quests (missioner)](plugins/quests/quests-missioner.md)
+  * [Menu](plugins/quests/menu/README.md)
+    * [Gui](plugins/quests/menu/gui.md)
 
 ## Additional Information
 
