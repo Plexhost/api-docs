@@ -5,6 +5,11 @@
 # License Key
 license: Your License Key
 
+# Groups that are automatically added to every cell.
+added-groups:
+  - inspektør
+  - officer
+
 # Debug mode?
 debug: false
 
