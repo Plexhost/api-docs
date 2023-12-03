@@ -4,6 +4,10 @@ description: På denne side kan du finde al dokumentation om vores plugins.
 
 # Introduktion
 
+{% hint style="info" %}
+Denne side og disse plugins tilhører ikke længere PlexHost.dk
+{% endhint %}
+
 {% content-ref url="plugins/bande/" %}
 [bande](plugins/bande/)
 {% endcontent-ref %}
