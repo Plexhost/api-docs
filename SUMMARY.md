@@ -60,5 +60,4 @@
 
 ## Additional Information
 
-* [Discord](https://discord.plexhost.dk)
-* [Hosting](https://plexhost.dk)
+* [Discord](https://discord.mcsetups.dk)
